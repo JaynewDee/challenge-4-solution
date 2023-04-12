@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popcorn</title>
+    <style>
+      #root {
+        text-align: center;
+      }
+      input,
+      #answers-section {
+        text-align: center;
+      }
+      #scoreboard {
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .answer-choice:hover {
+        cursor: pointer;
+        color: white;
+        background-color: black;
+      }
+      #result {
+        display: flex;
+        flex-flow: column nowrap;
+        max-width: 5rem;
+        margin: 1rem auto;
+      }
+      .score-pair {
+        display: flex;
+        justify-content: space-between;
+        line-height: 1.66;
+        max-width: 10rem;
+        margin: 0 auto;
+        border-bottom: 1px solid black;
+      }
+    </style>
+  </head>
+  <body id="root">
+    <div id="scoreboard">
+      <h1>Popcorn</h1>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
